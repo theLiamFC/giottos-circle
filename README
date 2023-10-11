@@ -1,0 +1,6 @@
+This code is written to aid in the control of a 2dof robot arm.
+
+The Giotto class is initialized with the length of both robot arms and returns 2 motor angles.
+
+You can change the priority of the robot arm using Giotto.mode = "efficiency","low","high","left","right".
+This parameter will alter which direction the class attempts to keep the arm in.
